@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Toshit Gharat</title>
+    <link rel="stylesheet" href="projects.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">Toshit Gharat</div>
+                <ul class="nav-links">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="projects.html" class="active">Projects</a></li>
+                    <li><a href="skills.html">Skills</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <div class="hamburger">☰</div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Projects Section -->
+    <section id="projects">
+        <div class="container">
+            <h2>My Projects</h2>
+            <div class="projects-grid">
+                <!-- Project 1 -->
+                <div class="project-card">
+                    <a href="Python_Essential_1.pdf">
+                        <img src="Python Essenstial 1.jpg" alt="Toshit Gharat" class="project-image">
+                    </a>
+                    <div class="project-info">
+                        <h3>Python Essenstial 1</h3>
+                        <p> Python Essentials 1 – Cisco Networking Academy
+                            Completed an advanced Python course through MITAOE and Cisco Networking Academy, focusing on OOP and practical coding skills.</p>
+                        <a href="Python Essenstial 1.jpg" class="btn">View Project</a>
+                    </div>
+                </div>
+                
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <a href="Python_Essential_2.pdf">
+                        <img src="Python Essenstial 2.jpg" alt="Toshit Gharat" class="project-image">
+                    </a>
+                    <div class="project-info">
+                        <h3>Python Essenstial 2</h3>
+                        <p>Python Essentials 2 – Cisco Networking Academy
+                            Completed an advanced Python course through MITAOE and Cisco Networking Academy, focusing on OOP and practical coding skills.</p>
+                        <a href="Python Essenstial 2.jpg" class="btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <p>&copy; Toshit Gharat. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Mobile menu toggle
+        document.querySelector('.hamburger').addEventListener('click', function() {
+            document.querySelector('.nav-links').classList.toggle('active');
+        });
+    </script>
+</body>
+</html>
